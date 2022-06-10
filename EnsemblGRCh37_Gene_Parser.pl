@@ -6,7 +6,7 @@ use File::Basename;
 use Carp;
 use Getopt::Long;
 my $help = 0;
-my $EnsemblFile = "/gpfs0/home/zzhu/Quokka2Data/GRCh37_Ensembl/Homo_sapiens.GRCh37.87.chr.gtf"; #  GRCh37 gene info
+my $EnsemblFile = "Homo_sapiens.GRCh37.87.chr.gtf"; #  GRCh37 gene info
 # ftp site: http://ftp.ensembl.org/pub/grch37/release-106/gtf/homo_sapiens/
 # select file - Homo_sapiens.GRCh37.87.chr.gtf.gz
 
