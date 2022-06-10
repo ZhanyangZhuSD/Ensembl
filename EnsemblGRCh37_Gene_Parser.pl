@@ -39,7 +39,7 @@ my %AllowedGeneInfoKeys = map { $_ => 1 } @GeneInfoKeys;
 BEGIN { # add the pm path to the library search path: 
       #my $module_path = abs_path(dirname($0)) . "/pm";
       #my $module_path = abs_path(dirname($0));
-      my $module_path = abs_path(dirname($0)) . "/../pm";
+      my $module_path = abs_path(dirname($0)) . "./pm";
       unshift @INC, $module_path;
 }
 
